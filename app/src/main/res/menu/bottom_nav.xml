@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navi_scheduled"
+        android:title="Scheduled"
+
+        android:icon="@drawable/sched"/>
+    <item
+        android:id="@+id/navi_unscheduled"
+        android:title="Unscheduled"
+        android:icon="@drawable/unsched"/>
+    <item
+        android:id="@+id/navi_emergency"
+        android:title="Emergency"
+        android:icon="@drawable/ic_emergency"/>
+
+</menu>

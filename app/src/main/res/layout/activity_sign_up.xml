@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC700">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="319dp"
+        android:layout_height="487dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_gravity="fill"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="138dp"
+        android:background="@color/white"
+        android:translationY="2dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp"
+        app:cardMaxElevation="5dp"
+        app:contentPadding="20dp">
+
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Register"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="60dp" />
+
+        <TextView
+            android:id="@+id/subTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins"
+            android:text="Stay updated with the latest power interruption"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="4dp" />
+
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/btn_submit"
+            android:fontFamily="@font/poppins_medium"
+            android:text="SUBMIT"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:backgroundTint="#FFFFFF"
+            app:backgroundTintMode="multiply"
+            android:elevation="15dp"
+            app:strokeColor="#BE723E"
+            android:layout_marginLeft="50dp" />
+
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="245.19dp"
+            android:layout_height="38.15dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="148dp"
+            android:background="@drawable/fill"
+            android:ems="10"
+            android:hint="639*********"
+            android:inputType="number"
+            android:maxLength="12"
+            android:textColor="#787676"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="128dp"
+            android:fontFamily="@font/poppins"
+            android:text="Mobile Number"
+            android:textColor="#222121"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/Barangay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="200dp"
+            android:fontFamily="@font/poppins"
+            android:text="Barangay"
+            android:textColor="#222121"
+            android:textSize="12sp"
+            android:layout_marginLeft="19dp"  />
+
+        <Spinner
+            android:id="@+id/spinnerBarangay"
+            android:layout_width="245.19dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="219dp"
+            android:background="@drawable/fill" />
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="260dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="60dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
